@@ -46,18 +46,7 @@ public class ConfigFileReader {
         String propertyKey="password";
         return returnPropertyValue(propertyKey);
     }
-    public String getOperatorCode() {
-        String propertyKey="operatorCode";
-        return returnPropertyValue(propertyKey);
-    }
-    public String getOperatorNameSurname() {
-        String propertyKey="operatorNameSurname";
-        return returnPropertyValue(propertyKey);
-    }
-    public String getOperatorPassword() {
-        String propertyKey="operatorPassword";
-        return returnPropertyValue(propertyKey);
-    }
+
     public String getLanguageForLogin() {
         String propertyKey="language";
         return returnPropertyValue(propertyKey);
